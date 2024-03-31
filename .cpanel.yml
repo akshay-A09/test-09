@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/agencyco/public_html/staging/test-09/
+    - /bin/cp * $DEPLOYPATH
